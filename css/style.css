@@ -54,6 +54,15 @@
     transition: background-color 0.15s, color 0.15s, box-shadow 0.15s;
 }
 
+.nav-links a.active {
+  color: white; 
+  background-color: rgb(255, 10, 0);
+  border: none;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+
 h1 {
     color: rgb(255, 10, 0);
     font-family: "Brush Script MT", cursive;
