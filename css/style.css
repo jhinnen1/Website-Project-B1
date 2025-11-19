@@ -85,7 +85,20 @@ h1 {
     font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
+    margin-bottom: 20px;
     
+}
+
+.support-paragraph {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto; /* centers the block */
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 footer {
@@ -96,33 +109,6 @@ footer {
 p {
     font-size: 20px;
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-
-
-.subscribe-button {
-    background-color: rgb(255, 10, 0);
-    font-family: 'Open Sans', sans-serif;
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    margin-left: 30px;
-    color: white;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transition: background-color 0.15s, color 0.15s, box-shadow 0.15s;
-}
-    
-.subscribe-button:hover {
-    opacity: 0.8;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-}
-
-.subscribe-button:active {
-    opacity: 0.5;
 }
 
 body {
