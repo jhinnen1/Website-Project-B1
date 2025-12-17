@@ -95,10 +95,18 @@ h1 {
   margin: 0 auto; /* centers the block */
 }
 
+.support-paragraph--b {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
 .image-row {
   display: flex;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 40px;
 }
 
 footer {
@@ -113,6 +121,13 @@ p {
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.dining_a {
+  display: block;
+  margin: 0 auto;
+  width: 800px;
+  height: 500px;
 }
 
 
